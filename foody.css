@@ -1,0 +1,179 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+h1 {
+    font-size: 35px;
+    color: rgb(51, 0, 255);
+    font-weight: bold;
+    margin: 10px;
+}
+
+h2 {
+    font-size: 25px;
+    color: rgb(3, 0, 12);
+    font-weight: bold;
+    margin: 10px;
+}
+
+p {
+    font-size: 20px;
+}
+
+/* navbar */
+
+#navbar {
+
+    display: flex;
+    position: fixed;
+    width: 100%;
+    /* background-color: rgb(243, 187, 187, 0.3); */
+    align-items: center;
+
+}
+
+#navbar a{
+    color: white !important;
+}
+
+#navbar::before{
+    position:absolute ;
+    content: "";
+    background-color: black;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    z-index: -1;
+}
+
+#logo img {
+    height: 45px;
+    width: 50px;
+    padding: 5px;
+}
+
+ul {
+    display: flex;
+    padding: 20px;
+    list-style: none;
+}
+
+.list {
+    text-decoration: none;
+    margin-left: 20px;
+    color: rgb(4, 4, 252);
+    font-weight: bold;
+}
+
+ul li a:hover {
+    background-color: aqua;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+/* home-section */
+#home {
+    background-image: url('/img/bg.jpg');
+    text-align: center;
+    padding: 150px 50px;
+    /* height: 330px; */
+    background-size: 1350px;
+    border: 2px solid black;
+}
+
+.btn {
+    background-color: tomato;
+    border-radius: 5px;
+    /* font-size: 20px; */
+    height: 30px;
+    width: 100px;
+    margin-top: 20px;
+}
+
+.btn:hover {
+    background-color: pink;
+    cursor: pointer;
+}
+
+/* services-section */
+
+#services {
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    /* background-color: rgb(213, 249, 213); */
+}
+
+#service-items {
+    display: flex;
+    margin-top: 20px;
+
+}
+
+.box {
+    align-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    border: 2px solid rgb(248, 8, 8);
+    border-radius: 10px;
+    width: 300px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.box:hover {
+    cursor: pointer;
+    background-color: rgb(245, 203, 203);
+}
+
+.box img{
+    width: 150px;
+    height: 150px;
+}
+
+/* about-us-section */
+
+#about-us {
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(250, 220, 220);
+}
+
+/* contact-us-section */
+
+#contact-us {
+    text-align: center;
+    background-image: url('/img/pexels-elle-hughes-1660030.jpg');
+    opacity: 1.8;
+    padding: 10px;
+    background-size: 1350px;
+}
+
+#form-section {
+    display: flex;
+    flex-direction: column;
+    /* border: 2px solid black; */
+    margin: 10px;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+#form-section>label {
+    margin: 10px;
+}
+
+/* footer-section */
+
+#footer-section {
+    text-align: center;
+    background-color: grey;
+    padding: 10px;
+}

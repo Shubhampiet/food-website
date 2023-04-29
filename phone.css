@@ -1,0 +1,35 @@
+/* navbar */
+
+#navbar{
+    flex-direction: column;
+}
+
+/* home-section */
+
+#home{
+    margin-right: 0%;
+}
+
+/* services */
+
+#services {
+    margin-right: 0%;
+}
+
+#service-items{
+    flex-direction: column;
+}
+
+
+/* about-us-section */
+
+#about-us{
+    margin-right: 0%;
+}
+
+/* contact-us-section */
+
+#contact-us{
+    margin-right: 0%;
+}
+
