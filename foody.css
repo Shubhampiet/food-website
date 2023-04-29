@@ -81,7 +81,7 @@ ul li a:hover {
 
 /* home-section */
 #home {
-    background-image: url('/img/bg.jpg');
+    background-image: url('./img/bg.jpg');
     text-align: center;
     padding: 150px 50px;
     /* height: 330px; */
@@ -151,7 +151,7 @@ ul li a:hover {
 
 #contact-us {
     text-align: center;
-    background-image: url('/img/pexels-elle-hughes-1660030.jpg');
+    background-image: url('./img/pexels-elle-hughes-1660030.jpg');
     opacity: 1.8;
     padding: 10px;
     background-size: 1350px;
